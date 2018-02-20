@@ -13,6 +13,7 @@ $(document).ready(function() {
     let jupiter = age.ageJupiter();
     let jupiterExpectancy = age.lifeExpectancyJupiter();
     let earth = age.ageInSeconds();
+    
     $('#mercuryAge').empty(mercury);
     $('#mercuryAge').append(mercury);
 
@@ -38,6 +39,6 @@ $(document).ready(function() {
     $('#jupiterExpectancy').append(jupiterExpectancy);
 
     $('#ageSeconds').empty(earth);
-    $('#ageSeconds').append(earth);//ageInSeconds
+    $('#ageSeconds').append(earth);
   });
 });

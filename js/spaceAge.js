@@ -1,9 +1,3 @@
-// mercury .24
-// venus .62
-// mars 1.88
-// jupiter 11.86
-
-
 export class Age{
   constructor(age, expectancy) {
     this.age = age;
@@ -63,8 +57,4 @@ export class Age{
     const jupiterExpectancy = this.expectancy / 11.86;
     return Math.ceil(jupiterExpectancy - this.ageJupiter());
   }
-
-
-
-
 }
